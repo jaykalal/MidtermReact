@@ -1,0 +1,21 @@
+.cash-modal .modal-header {
+    background: orange;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cash-modal .modal-body {
+    background: linear-gradient(to right, #35b4f0, #7757f5);
+}
+
+.cash-modal input {
+    background: linear-gradient(to right, #F0CB35, #f55757);
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    min-width: 100px;
+}

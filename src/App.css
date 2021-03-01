@@ -1,0 +1,101 @@
+.App {
+  /* text-align: center; */
+  background: #C02425;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F0CB35, #f55757);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F0CB35, #f55757);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 3px 3px 5px black;
+}
+
+.currency-btn {
+  background-image: url("./assets/currency-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  margin: 4px;
+  cursor: pointer;
+  text-shadow: 2px 2px 8px #77b8ff;
+}
+
+.currency-btn.highlight {
+  background-image: url("./assets/number-background.png");
+}
+
+.currency-btn.disabled {
+  background-image: url("./assets/number-background.png");
+  text-shadow: none;
+  color: #f7f7f7;
+  cursor: not-allowed;
+}
+
+.number-btn {
+  background-image: url("./assets/number-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #f7f7f7;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.number-btn.selected {
+  background-image: url("./assets/number-selected-background.png");
+  text-shadow: 1px 1px 1px black;
+  color: white;
+}
+
+.action-btn {
+  background-image: url("./assets/action-button-background.png");
+  background-repeat: no-repeat;
+  background-size: 148px 64px;
+  width: 148px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #f7f7f7;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.action-btn.disabled {
+  background-image: url("./assets/action-button-disabled-background.png");
+  cursor: not-allowed;
+}
+
+.right-block {
+  background: linear-gradient(to right, #35b4f0, #7757f5);
+  padding: 16px;
+}
+
+.modal-btn {
+  background: #efef24;
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+  padding: 4px 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
